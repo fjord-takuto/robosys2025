@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2025 Takuto Irie
+# SPDX-License-Identifier: BSD-3-Clause
+
+n = int(input("数字入力:"))
+
+print(f"{n}の約数は:")
+for i in range(1, n + 1):
+    if n % i == 0:
+        print(i)
