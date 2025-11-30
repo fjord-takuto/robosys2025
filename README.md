@@ -23,3 +23,8 @@
 - このパッケージのコードは、下記のスライド(CC-BY-SA 4.0 by Ryuichi Ueda)のものを、本人の許可を得て自身の著作としたものです。
 [ryuichiueda/slides_marp/robosys2025](https://github.com/ryuichiueda/slides_marp/tree/master/robosys2025)
 - © 2025 Ryuichi Ueda
+
+## 協力
+- ChatGPT5.1
+  - github上でファイルを消したことによってリモートとローカルの状態に相違が生まれた。それによりプッシュができなくなった為、リモートをローカルに合わせる方法を教えて貰った。
+
