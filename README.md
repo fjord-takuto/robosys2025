@@ -1,5 +1,5 @@
 # divisorsコマンド
-[![test](https://github.com/fjord-takuto/robosys2025/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/fjord-takuto/robosys2025/actions/workflows/test.yml/badge.svg)
 
 標準入力から読み込んだ数字の約数を答える。
 
