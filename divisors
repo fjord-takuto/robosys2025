@@ -5,8 +5,21 @@
 import sys
 
 for line in sys.stdin:
-    n = int(line)
+    try:
+        n = int(line)
+        if n <= 0:
+            sys.exit(1)
+    except:
+        sys.exit(1)
 
+    divisors = []
     for i in range(1, n + 1):
         if n % i == 0:
+            divisors.append(i)
             print(i, end=" ")
+
+    print()
+    if len(divisors) == 2:
+        print("素数です")
+    else:
+        print("素数ではありません")
