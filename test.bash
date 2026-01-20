@@ -10,7 +10,9 @@ ng () {
 res=0
 
 out=$(echo 10 | ./divisors)
-[ "${out}" = "1 2 5 10 " ] || ng "$LINENO"
+expected="1 2 5 10 
+素数ではありません"
+[ "${out}" = "${expected}" ] || ng "$LINENO"
 
 out=$(echo あ | ./divisors)
 [ "$?" = 1 ]      || ng "$LINENO"
