@@ -1,18 +1,21 @@
 # divisorsコマンド
 ![test](https://github.com/fjord-takuto/robosys2025/actions/workflows/test.yml/badge.svg)
 
-標準入力から読み込んだ数字の約数を答える。
+標準入力から読み込んだ数字の約数を答え、素数が否かの判別をする。
 
 ## 使い方
 - Code(緑のボタン)をクリック。
 - HTTPSをクリックし、URLをコピー。
 - 任意のディレクトリに移動し、`git clone <さっきコピーしたURL>`を実行する。
-- `echo <約数を知りたい数字> | ./divisors`で実行。
-- 結果が表示されます。
+```
+echo 15 | ./divisors
+1 3 5 15
+素数ではありません
+```
 
 ## 必要なソフトウェア
 - Python
-  - テスト済みバージョン: 3.7~3.13
+  - テスト済みバージョン: 3.8~3.13
 
 ## テスト環境
 - Ubuntu 24.04.1 LTS
